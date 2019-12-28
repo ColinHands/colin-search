@@ -11,7 +11,7 @@
         },
         "title": {
           "type": "text",
-          "index": "analyzed",
+          "index": "true",
           "analyzer": "ik_smart",
           "search_analyzer": "ik_smart"
         },
@@ -58,25 +58,25 @@
         },
         "description": {
           "type": "text",
-          "index": "analyzed",
+          "index": "true",
           "analyzer": "ik_smart",
           "search_analyzer": "ik_smart"
         },
         "layoutDesc" : {
           "type": "text",
-          "index": "analyzed",
+          "index": "true",
           "analyzer": "ik_smart",
           "search_analyzer": "ik_smart"
         },
         "traffic": {
           "type": "text",
-          "index": "analyzed",
+          "index": "true",
           "analyzer": "ik_smart",
           "search_analyzer": "ik_smart"
         },
         "roundService": {
           "type": "text",
-          "index": "analyzed",
+          "index": "true",
           "analyzer": "ik_smart",
           "search_analyzer": "ik_smart"
         },
